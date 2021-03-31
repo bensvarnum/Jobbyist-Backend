@@ -1,0 +1,30 @@
+{
+  "name": "jobbyist-backend",
+  "version": "1.0.0",
+  "description": "Backend for Jobbyist",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensvarnum/Jobbyist-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bensvarnum/Jobbyist-Backend/issues"
+  },
+  "homepage": "https://github.com/bensvarnum/Jobbyist-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
